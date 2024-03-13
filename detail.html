@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toko Sepatu Detail Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style="margin-top: 10px;">
+<nav class="nav-wrapper container">
+    <h6 class="title-font logo">swift shoes</h6>
+    <ul type="none" class="nav-items">
+        <li class="nav-link title-font">
+            <a href="#home">Home</a>
+        </li>
+        <li class="nav-link title-font dropdown">
+            <a href="#product">Product</a>
+            <ul class="dropdown-wrapper" type="none">
+                <li class="dropdown-list active"><a href="#">Sneakers</a></li>
+                <li class="dropdown-list"><a href="#">Boots</a></li>
+            </ul>
+        </li>
+        <li class="nav-link title-font">
+            <a href="#about">About Us</a>
+        </li>
+        <li class="nav-link title-font">
+            <a href="#feature">Feature</a>
+        </li>
+    </ul>
+    <button class="btn btn-nav">Login</button>
+</nav>
+<section class="detail-section container ">
+    <div class="normal-section">
+        <div class="image-section">
+            <img src="./img/product1.jpg" alt="product 1" class="w-full  img-detail">
+        </div>
+    <div class="space-section"></div>
+    <div class="text-section">
+        <h1 class="title-font title-product-detail">
+            SkyTranse Dark Blue
+        </h1>
+        <h2 class="price-detail">
+            $70.00
+        </h2>
+        <p class="desc desc-detail">
+            The SkyTranse Dark Blue is a stylish and comfortable running shoe that is perfect for runners of all levels. With its sleek design and advanced cushioning system, the SkyTranse Dark Blue will help you take your running to the next level.
+        </p>
+        <div class="feature-wrapper">
+            <h3 class="title-font title-feature">Why You Should Buy?</h3>
+            <ul class="list-feature-wrapper" type="none">
+                <li class="list-feature">Lightweight and breathable mesh upper</li>
+                <li class="list-feature">Seamless construction for a smooth fit</li>
+                <li class="list-feature">Responsive cushioning system for a comfortable ride</li>
+                <li class="list-feature">Durable outsole for long-lasting wear</li>
+            </ul>
+        </div>
+        <div class="size-wrapper">
+            <h3 class="title-font title-feature">Choose your fit?</h3>
+            <select name="size" id="size" class="size-select-wrapper">
+                <option value="" selected disabled>choose your fit</option>
+                <option value="XL" class="size-select">XL</option>
+                <option value="L" class="size-select">L</option>
+                <option value="M" class="size-select">M</option>
+            </select>
+            <div class="special-size-wrapper">
+                <h4 class="title-special-size">Input Your Special Size</h4>
+                <div class="input-wrapper">
+                    <input type="text" name="" id="" class="input-text" placeholder="input your size">
+                </div>
+            </div>
+        </div>
+        <div class="package-wrapper">
+            <h1 class="title-font title-package">Choose Your Packaging</h1>
+            <div class="package-choise-wrapper">
+                <label for="package" class="package-choice">
+                    <input type="radio" name="package" id="" class="input-radio">
+                    Normal
+                </label>
+                <label for="package" class="package-choice">
+                    <input type="radio" name="package" id="" class="input-radio">
+                    Bubble Wrap
+                </label>
+                <label for="package" class="package-choice">
+                    <input type="radio" name="package" id="" class="input-radio">
+                    Wooden Box
+                </label>
+            </div>
+        </div>
+        <button class="btn btn-main btn-detail">Add to cart</button>
+    </div>
+    </div>
+</section>
+<section id="product" class="product-section container section-margin-top">
+    <div class="normal-section header-section">
+        <div class="text-section">
+            <h2 class="title-section title-font">
+                Discover Your Perfect Shoes: <br> Shop Our Latest Arrivals
+                <!--                        Unlocking Learning Excellence with SmartLibrary-->
+            </h2>
+        </div>
+        <div class="space-section"></div>
+        <div class="image-section">
+            <p class="desc">
+                From sneakers to boots to dress shoes, we have a wide variety of styles to choose from. Whether you're looking for a new pair of shoes for everyday wear or a special occasion, we have something for everyone. Our shoes are made with high-quality materials and construction, so you can be sure they will last.
+            </p>
+        </div>
+    </div>
+    <div class="content-section grid4">
+        <a href="detail.html" class="card-product">
+
+            <div class="card-product-header">
+                <h6 class="logo-product title-font">swift</h6>
+                <p class="price title-font">$60.00</p>
+            </div>
+            <div class="card-product-img">
+                <img src="./img/product1.jpg" alt="product 1" class="w-full img-product flipped-img">
+            </div>
+            <div class="card-product-bottom">
+                <h4 class="title-font title-product">SkyTranse Dark Blue</h4>
+            </div>
+        </a>
+        <div class="card-product">
+            <div class="card-product-header">
+                <h6 class="logo-product title-font">swift</h6>
+                <p class="price title-font">$70.00</p>
+            </div>
+            <div class="card-product-img">
+                <img src="./img/product2.jpg" alt="product 2" class="w-full img-product">
+            </div>
+            <div class="card-product-bottom">
+                <h4 class="title-font title-product">Sole-Mate Full White</h4>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="card-product-header">
+                <h6 class="logo-product title-font">swift</h6>
+                <p class="price title-font">$70.00</p>
+            </div>
+            <div class="card-product-img">
+                <img src="./img/product3.jpg" alt="product 3" class="w-full img-product">
+            </div>
+            <div class="card-product-bottom">
+                <h4 class="title-font title-product">Sole-Mate Full Black</h4>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="card-product-header">
+                <h6 class="logo-product title-font">swift</h6>
+                <p class="price title-font">$70.00</p>
+            </div>
+            <div class="card-product-img">
+                <img src="./img/product4.jpg" alt="product 2" class="w-full img-product">
+            </div>
+            <div class="card-product-bottom">
+                <h4 class="title-font title-product">Terra-Flex White Tosca</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="section-margin-top">
+    <div class="footer-header container normal-section">
+
+        <div class="footer-desc">
+            <h6 class="title-font logo">swift shoes</h6>
+            <p class="desc">
+                At Swift Shoes, we believe that <br> everyone deserves to experience <br> the joy of wearing shoes.
+            </p>
+            <div class=" socmed-wrapper">
+                <div class="btn-socmed">
+                    <img src="./img/fb.svg" alt="">
+                </div>
+                <div class="btn-socmed">
+                    <img src="./img/wa.svg" alt="">
+                </div>
+                <div class="btn-socmed">
+                    <img src="./img/tt.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <p class="title-footer">quick link</p>
+            <div class="footer-menu">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#product" class="footer-link">Products</a>
+                <a href="#about" class="footer-link">About Us</a>
+                <a href="#testi" class="footer-link">Testimonials</a>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <p class="title-footer">Our Categories</p>
+            <div class="footer-menu">
+                <a href="#" class="footer-link">Casual</a>
+                <a href="#" class="footer-link">Sports</a>
+                <a href="#" class="footer-link">Boots</a>
+                <a href="#" class="footer-link">Sneakers</a>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <p class="title-footer">Help & guide</p>
+            <div class="footer-menu">
+                <a href="#" class="footer-link">Terms & Conditions</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <p class="title-footer">Help & guide</p>
+            <div class="footer-menu">
+                <a href="#" class="footer-link">Terms & Conditions</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-btm section-margin-top text-center section">
+        <hr class="line-footer">
+        <p class="copyright">Copyright © 2023 swift shoes. All Right Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
