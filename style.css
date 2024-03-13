@@ -100,6 +100,7 @@
     font-size:28px;
 }
 .nav-wrapper{
+  margin-top: 16px;
     display:flex;
     justify-content:space-between;
     align-items: center;
