@@ -126,7 +126,7 @@
     align-items: end;
   }
   .desc{
-    font-size: 5px;
+    font-size: clamp(0.938rem, 0.8992rem + 0.124vw, 1rem);
   }
   .img-border{
     border: 2px solid black;
@@ -224,7 +224,7 @@
 }
 .title-header{
   /*font-size: 9vw;*/
-  font-size: clamp(2.8rem, 3vw, 6rem);
+  font-size: clamp(2.4rem, -1.725rem + 13.2vw, 9rem);
   line-height: 0.8;
 }
 .hero-img-wrapper{
@@ -279,7 +279,11 @@
   font-size: 22px;
 }
 .title-product{
-  font-size: 32px;
+  font-size: clamp(1.5rem, 1.1875rem + 1vw, 2rem);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .img-product{
   aspect-ratio: 5/4;
@@ -295,7 +299,7 @@
 }
 .desc-about{
   /*font-size: 1vw;*/
-  font-size: max(1rem, 1.2vw);
+  font-size: clamp(0.938rem, 0.8992rem + 0.124vw, 1rem);
   margin-top: 24px;
 }
 .p2{
@@ -405,10 +409,10 @@ footer .logo{
   scale: 102%;
 }
 .title-product-detail{
-  font-size: 3.5vw;
+  font-size: clamp(2rem, 0.75rem + 4vw, 4rem);
 }
 .price-detail{
-  font-size: 2vw;
+  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
   font-weight: 800;
   color: #000;
 }
@@ -419,7 +423,7 @@ footer .logo{
   margin-top: 40px;
 }
 .title-feature{
-  font-size: 2vw;
+  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
 }
 .list-feature-wrapper{
   margin-top: 5px;
@@ -459,10 +463,11 @@ footer .logo{
   outline: transparent;
 }
 .title-special-size{
-  font-size: 20px;
+  font-size: clamp(1rem, 0.8438rem + 0.5vw, 1.25rem);
 }
 .title-package{
-  font-size: 2vw;
+  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
+
 }
 .package-choice-wrapper{
   margin-top: 16px;
