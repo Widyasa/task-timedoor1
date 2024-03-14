@@ -409,10 +409,9 @@ footer .logo{
   scale: 102%;
 }
 .title-product-detail{
-  font-size: clamp(2rem, 0.75rem + 4vw, 4rem);
-}
+  font-size: clamp(2rem, 1.375rem + 2vw, 3rem);}
 .price-detail{
-  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
+  font-size: clamp(1.5rem, 1rem + 1.6vw, 2.3rem);
   font-weight: 800;
   color: #000;
 }
@@ -423,7 +422,7 @@ footer .logo{
   margin-top: 40px;
 }
 .title-feature{
-  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
+  font-size: clamp(1.5rem, 1rem + 1.6vw, 2.3rem);
 }
 .list-feature-wrapper{
   margin-top: 5px;
@@ -466,8 +465,7 @@ footer .logo{
   font-size: clamp(1rem, 0.8438rem + 0.5vw, 1.25rem);
 }
 .title-package{
-  font-size: clamp(1.6rem, 0.4125rem + 3.8vw, 3.5rem);
-
+  font-size: clamp(1.5rem, 1rem + 1.6vw, 2.3rem);
 }
 .package-choice-wrapper{
   margin-top: 16px;
